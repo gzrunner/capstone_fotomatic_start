@@ -117,10 +117,11 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;  
+  width: 100%; /*My code*/
 }
 
 img{
-  width: 50%;/*My code*/
+  width: 100%;/*My code*/
 }
 
 #sign-up-cta {

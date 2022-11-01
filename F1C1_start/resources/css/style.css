@@ -47,7 +47,7 @@ header {
 header .content {
   display: flex;
   align-items: center;
-  padding: 0.875rem;
+  padding: 0.875rem 1.875rem; /*reduce from 1.875rem*/
   
 }
 

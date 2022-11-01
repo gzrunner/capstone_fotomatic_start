@@ -47,7 +47,7 @@ header {
 header .content {
   display: flex;
   align-items: center;
-  padding: 0.875rem 1.875rem; /*reduce from 1.875rem*/
+  padding: 0.875rem 1.875rem; /*add top/bottom 0.875rem from 1.875rem*/
   
 }
 
@@ -138,6 +138,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin-top: 10.625rem;
+  
 }
 
 #sign-up-cta .content {

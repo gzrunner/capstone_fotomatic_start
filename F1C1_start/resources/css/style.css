@@ -139,7 +139,7 @@ header .mobile {
   border-radius: 4px;
   background-color: #9dc20b;
   margin-top: 10.625rem;
-  
+  margin-bottom: 10.625rem;
 }
 
 #sign-up-cta .content {
@@ -165,11 +165,18 @@ header .mobile {
 
 #sign-up-cta .cursive {
   font-family: "Damion", cursive;
+  margin-top:2rem;
+  margin-bottom: 0;
 }
 
 #sign-up-cta .striking {
   font-family: "Rubik", sans-serif;
   padding-bottom: .75rem;
+  font-size:3.125rem;
+  font-family: Rubik;
+  line-height: 1.4;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 #sign-up-cta .button {

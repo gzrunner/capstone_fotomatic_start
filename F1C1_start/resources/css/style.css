@@ -1,4 +1,7 @@
 /* Universal Styles */
+*{
+  box-sizing: border-box;
+}
 
 html {
   font-family: "Roboto", sans-serif;
@@ -249,6 +252,7 @@ header .mobile {
 #features-section {
   display: flex;
   justify-content: space-between;
+ align-items: flex-start;
   padding: 4rem 5%;
   background-color: #f3f3f3;
 }
@@ -260,7 +264,7 @@ header .mobile {
   background-color: white;
 }
 
-.feature .image-container {
+.feature .center .image-container {
   width: 90%;
   height: 65%;
   margin: 0 auto;

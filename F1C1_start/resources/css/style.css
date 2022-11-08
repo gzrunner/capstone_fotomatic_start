@@ -1,7 +1,5 @@
 /* Universal Styles */
-*{
-  box-sizing: border-box;
-}
+
 
 html {
   font-family: "Roboto", sans-serif;
@@ -44,6 +42,7 @@ html {
 
 header {
   position: fixed;
+  z-index: 1;/*11/9*/
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
@@ -130,11 +129,15 @@ header .mobile {
 
 #sign-up-section {
   display: flex;
+  min-width: 100%;/*11/9*/
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;  
  
   background-image: url("../images/banner-landingpage.jpg");
+  background-position: bottom;/*11/9*/
+  background-size:cover;/*11/9*/
+  background-repeat: none;/*11/9*/
 }
 
 
@@ -143,8 +146,9 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20a;
-  margin-top: 10.625rem;
-  margin-bottom: 10.625rem;
+  /*margin-top: 10.625rem;
+  margin-bottom: 10.625rem;*/
+  margin: auto 10rem auto 5rem;
 }
 
 #sign-up-cta .content {
@@ -170,16 +174,16 @@ header .mobile {
 
 #sign-up-cta .cursive {
   font-family: "Damion", cursive;
-  margin-top:2rem;
-  margin-bottom: 0;
+  margin: 0;
+  /*margin-top:2rem;
+  margin-bottom: 0;*/
 }
 
 #sign-up-cta .striking {
   font-family: "Rubik", sans-serif;
   padding-bottom: .75rem;
-  font-size:3.125rem;
-  font-family: Rubik;
-  line-height: 1.4;
+  /*font-size:3.125rem;
+  line-height: 1.4;*/
   margin-bottom: 0;
   margin-top: 0;
   font-weight:400;
@@ -200,7 +204,7 @@ header .mobile {
   line-height: 1.4;
   background-color: #4a4a4a;
   border-radius: 4px;
-  margin-bottom:2.25rem;
+  /*margin-bottom:2.25rem;*/
 }
 
 @media only screen and (max-width: 760px) {

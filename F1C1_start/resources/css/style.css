@@ -325,6 +325,7 @@ header .mobile {
 /* Filters Section */
 
 #filters-section {
+  
   padding: 4rem 0;
   background-color: #4a4a4a;
 }
@@ -338,6 +339,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  margin: 0;
 }
 
 #filters-section .content h3 {
@@ -348,6 +350,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display:flex;
   max-width: 100%;
   padding: 0 1%;
 }
